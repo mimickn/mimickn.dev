@@ -1,0 +1,28 @@
+.main {
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: #333333;
+}
+
+.title {
+  position: fixed;
+  font-size: 14vw;
+  font-weight: 700;
+  bottom: 0;
+  line-height: 1;
+}
+
+@media (max-width: 700px) {
+  .title {
+    position: fixed;
+    font-size: 14vh;
+    font-weight: 700;
+    top: 0;
+    line-height: 1;
+    writing-mode: vertical-rl;
+  }
+}
